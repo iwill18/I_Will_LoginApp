@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#00FF00">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_logoicon_foreground"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/eyelogo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eyelogo"
+        android:text="Let's Get Straight to Business!! "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/slogan"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slogan"
+        android:textColor="@color/white"
+        android:text="If you don't believe, you won't achieve. You must be comfortable being uncomfortable.If you don't want to be challenged, then don't join us!!"
+        android:padding="40dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/mission"/>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:backgroundTint="@color/black"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:width="300dp"
+        android:backgroundTint="@color/black"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+</RelativeLayout>
